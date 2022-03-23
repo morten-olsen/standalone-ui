@@ -1,0 +1,11 @@
+.zn-row {
+  &.zn-large {
+    .zn-row-elm-title {
+      font-size: 60px;
+    }
+  }  
+
+  &.zn-alternate {
+    background: #f0f0f0;
+  }  
+}

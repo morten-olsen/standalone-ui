@@ -1,0 +1,26 @@
+{
+  "name": "standalone-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/html": "^6.4.19",
+    "babel-loader": "^8.2.4",
+    "ejs-loader": "^0.5.0",
+    "html-webpack-pug-plugin": "^4.0.0",
+    "less": "^3.5.0",
+    "less-loader": "8",
+    "pug": "^3.0.2",
+    "sass": "^1.49.9",
+    "sass-loader": "10"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
